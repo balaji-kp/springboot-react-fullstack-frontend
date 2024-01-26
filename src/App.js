@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AddUser from "./users/AddUser";
 import EditUser from "./users/EditUser";
 import ViewUser from "./users/ViewUser";
+import axios from "axios";
 
 axios.defatults.baseURL = 'http://3.111.215.66:8080/';
 function App() {
