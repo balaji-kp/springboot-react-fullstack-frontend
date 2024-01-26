@@ -13,7 +13,7 @@ export default function Home() {
   }, []);
 
   const loadUsers = async () => {
-    const result = await axios.get("/users");
+    const result = await axios.get("http://3.111.215.66:8080/users");
     setUsers(result.data);
   };
 
