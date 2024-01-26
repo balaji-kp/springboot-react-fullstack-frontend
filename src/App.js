@@ -9,6 +9,7 @@ import ViewUser from "./users/ViewUser";
 import axios from "axios";
 
 const baseURL = 'http://3.111.215.66:8080';
+axios.defaults.baseURL = 'https://api.example.com';
 function App() {
   return (
     <div className="App">
