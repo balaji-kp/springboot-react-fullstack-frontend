@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Link, useParams } from "react-router-dom";
 
-axios.defaults.baseURL = 'http://3.111.215.66:8080/';
+axios.defaults.baseURL = 'http://3.111.215.66:8080';
 export default function Home() {
   const [users, setUsers] = useState([]);
 
