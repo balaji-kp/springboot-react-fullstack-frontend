@@ -12,7 +12,7 @@ export default function Home() {
   }, []);
 
   const loadUsers = async () => {
-    const result = await axios.get("http://http://ip172-18-0-84-cmpm2547vdo0008q6h90-8080.direct.labs.play-with-docker.com/users");
+    const result = await axios.get("http://ip172-18-0-84-cmpm2547vdo0008q6h90-8080.direct.labs.play-with-docker.com/users");
     setUsers(result.data);
   };
 
