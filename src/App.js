@@ -8,7 +8,7 @@ import EditUser from "./users/EditUser";
 import ViewUser from "./users/ViewUser";
 import axios from "axios";
 
-axios.defatults.baseURL = 'http://3.111.215.66:8080';
+const baseURL = 'http://3.111.215.66:8080';
 function App() {
   return (
     <div className="App">
