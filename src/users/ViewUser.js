@@ -16,7 +16,7 @@ export default function ViewUser() {
   }, []);
 
   const loadUser = async () => {
-    const result = await axios.get(`http://localhost:8080/user/${id}`);
+    const result = await axios.get(`http://ip172-18-0-28-cmpm2547vdo0008q6h90-8080.direct.labs.play-with-docker.com/user/${id}`);
     setUser(result.data);
   };
 
