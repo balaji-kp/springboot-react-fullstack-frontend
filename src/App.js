@@ -9,7 +9,7 @@ import ViewUser from "./users/ViewUser";
 import axios from "axios";
 
 const baseURL = 'http://3.111.215.66:8080';
-axios.defaults.baseURL = '${BACKEND_ENDPOINT}';
+axios.defaults.baseURL = 'http://springboot-crud-svc:31313';
 function App() {
   return (
     <div className="App">
