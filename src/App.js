@@ -8,8 +8,9 @@ import EditUser from "./users/EditUser";
 import ViewUser from "./users/ViewUser";
 import axios from "axios";
 
-const baseURL = 'http://3.111.215.66:8080';
-axios.defaults.baseURL = 'http://13.201.10.16:8080';
+const baseURL = process.env.REACT_APP_base_url
+console.log(baseURL);
+axios.defaults.baseURL = baseURL;
 function App() {
   return (
     <div className="App">
