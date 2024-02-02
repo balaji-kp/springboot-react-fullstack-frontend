@@ -1,6 +1,8 @@
 # Use the official Node.js runtime as the base image
 FROM node:18 as build
 
+ENV BACKEND_URL=http://localhost:8080
+
 RUN git clone https://github.com/balaji-kp/springboot-react-fullstack-frontend.git
 # Set the working directory in the container
 WORKDIR /springboot-react-fullstack-frontend
